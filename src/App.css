@@ -13,13 +13,23 @@
 
 /* Roboto Font */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*Container class*/
+
+.container-1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
 .container {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 .container.container-sm {
   max-width: 782px;
